@@ -1,3 +1,10 @@
+/*
+ * @Author: giscafer@outlook.com
+ * @Date: 2020-09-07 23:02:25
+ * @LastEditors: Gang Jiang
+ * @LastEditTime: 2020-10-07 07:53:47
+ * @Description: 基金实时走势webview
+ */
 import { ViewColumn } from 'vscode';
 import ReusedWebviewPanel from './ReusedWebviewPanel';
 

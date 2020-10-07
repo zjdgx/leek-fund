@@ -148,9 +148,8 @@ export const sortData = (data: LeekTreeItem[] = [], order = SortType.NORMAL) => 
 };
 
 export const formatTreeText = (text = '', num = 10): string => {
-  const str = text + '';
-  const lenx = num - str.length;
-  return str + ' '.repeat(lenx);
+  const str = text + ' '.repeat(num);
+  return str.substring(0, num);
 };
 
 export const caculateEarnings = (money: number, price: number, currentPrice: number): number => {

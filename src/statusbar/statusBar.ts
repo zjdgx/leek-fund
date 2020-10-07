@@ -1,3 +1,10 @@
+/*
+ * @Author: Gang Jiang
+ * @Date: 2020-09-07 23:02:25
+ * @LastEditors: Gang Jiang
+ * @LastEditTime: 2020-10-07 08:32:47
+ * @Description: 
+ */
 import { StatusBarAlignment, StatusBarItem, window } from 'vscode';
 import { LeekFundConfig } from '../shared/leekConfig';
 import { LeekTreeItem } from '../shared/leekTreeItem';
@@ -65,7 +72,7 @@ export class StatusBar {
   }
 
   refreshFundStatusBar() {
-    this.fundBarItem.text = `🐥$(pulse)`;
+    this.fundBarItem.text = `$(pulse)`;
     this.fundBarItem.color = this.riseColor;
     this.fundBarItem.tooltip = this.getFundTooltipText();
     this.fundBarItem.show();

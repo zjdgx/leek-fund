@@ -38,7 +38,7 @@
       "activitybar": [
         {
           "id": "leekFundMenu",
-          "title": "LeekFund",
+          "title": "ZJDGX",
           "icon": "resources/leekfund.svg"
         }
       ]
@@ -56,6 +56,10 @@
         {
           "id": "leekFundView.news",
           "name": "XueQiu News"
+        },
+        {
+          "id": "leekFundView.zjdgx",
+          "name": "ZJDGX"
         },
         {
           "id": "leekFundView.settings",
@@ -416,6 +420,10 @@
       {
         "view": "leekFundView.news",
         "contents": "无数据，请检查网络或添加关注用户\n [设置cookie](command:leek-fund.setXueqiuCookie)"
+      },
+      {
+        "view": "leekFundView.zjdgx",
+        "contents": "\n[weekly report](http://kb.dealmoon.net/xwiki/bin/view/Blog/web%20front/week-report/)\n[早报](https://wubaiqing.github.io/zaobao/)"
       },
       {
         "view": "leekFundView.settings",

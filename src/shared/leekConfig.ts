@@ -117,4 +117,16 @@ export class LeekFundConfig extends BaseConfig {
     });
   }
   // StatusBar End
+
+  // zjdgx Begin
+  updateZjdgxCfg(codes: Array<string>, cb?: Function) {
+    this.setConfig('leek-fund.zjdgx', codes).then(() => {
+      window.showInformationMessage(`zjdgx config update.`);
+      if (cb && typeof cb === 'function') {
+        cb(codes);
+      }
+    });
+  }
+
+  // zjdgx End
 }
